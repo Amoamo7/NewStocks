@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!--　この文章がHTML文章であることを伝える要素です。-->
+<html lang="ja"><!--言語の指定-->
+
+<head><!--ページに表示されない情報(サイトの裏側の設定)-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--検索窓の作成に必要-->
+    <title>NewStock</title><!--ブラウザのタブのタイトルを指定-->
+    <link rel="stylesheet" href="../stylesheets/index.css">  
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script> 
+</head>
+
+<body>
+  <header  class="header-nav">
+    
+  </header>
+    
+  <!-- search box-->
+  <div id="containter">
+    <h1 class="animation-title">NewStock</h1>
+    
+    <form method="get" action="/process_data" target="_blank">
+      <input class="textbox" type="text" name="q" placeholder="海外企業を入力" onEnter="send()" autocomplete="off" maxlength="60">
+      <input type="submit" value="検索">
+    </form>
+  </div>
+
+
+  <div>
+  <!-- second block Start   -->
+  <section id="second-block">
+    <div class="parent">
+      <div class="child"><h2>NewStockとは</h2></div>
+      <div class="child"><h2>テクニカル分析とは</h2></div>
+      <div class="child"><h2>How to use?</h2></div>
+    </div>
+  </section>
+  </div>
+
+
+
+
+
+  <!--  コンテンツはここまで  -->
+  
+  <footer>	
+    <small>&copy; 2023 宮本真</small>
+  </footer>
+</body

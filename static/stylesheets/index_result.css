@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;}
+
+
+
+h3 {
+        color: rgba(34, 75, 156, 0.412);
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 42px;
+        margin-top: 30px;
+        }
+    
+h4 {
+        color: rgb(40, 186, 11);
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 30px;
+        }
+
+h5 {
+            color: rgb(186, 116, 11);
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 40px;
+            margin-top: 30px;
+            }
